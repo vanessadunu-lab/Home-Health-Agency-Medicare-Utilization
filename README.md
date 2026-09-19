@@ -11,3 +11,4 @@ Executive Summary
 Summary of Insights (4 visuals)
 Recommendations
 Healthcare data analytics project analyzing Medicare home health utilization, episode activity, and payments across states and providers using SQL and Tableau.
+tableau dashboard: https://public.tableau.com/app/profile/vanessa.dunu/viz/HHA_17898150729830/Dashboard1 
