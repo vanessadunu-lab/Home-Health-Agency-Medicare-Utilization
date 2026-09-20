@@ -5,7 +5,7 @@ Utilization and Payment Public Use Files (PAC PUF) from 2014 to 2024 reporting a
 
 CMS Office of Enterprise & Data Analytics releases data on types of population receiving care, services offered by providers, and beneficiary/provider/medicare costs. This project analyzes Medicare home health utilization and payment patterns across states and providers using CMS data from 2024. The analysis examines episode activity, beneficiary charges, standardized payments, and provider-level payment variation to identify patterns that may support Provider Operations and Care Management teams.
 
-* The python codes used to retrieve the data can be found [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/01_data_retrieval/home_health_data_retrieval.ipynb)
+* The python codes used to retrieve the data through the open API can be found [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/01_data_retrieval/home_health_data_retrieval.ipynb)
   
 ## Data Structure Overview
 The CMS Home Health Agency dataset is a flat, provider/geography-level dataset containing 33 variables spanning provider characteristics, admission characteristics, patient complexity, utilization, payment, and service measures.
