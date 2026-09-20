@@ -10,7 +10,8 @@ CMS Office of Enterprise & Data Analytics releases data on types of population r
 ## Data Structure Overview
 The CMS Home Health Agency dataset is a flat, provider/geography-level dataset containing 33 variables spanning provider characteristics, admission characteristics, patient complexity, utilization, payment, and service measures.
 
-[HHA Data Structure.pdf](https://github.com/user-attachments/files/32445631/HHA.Data.Structure.pdf)
+<img width="1920" height="1080" alt="HHA_Data_Structure" src="https://github.com/user-attachments/assets/a8858f4d-9487-4bb9-a4c0-c579815f2d70" />
+
 
 * The data cleaning log to document checks completed in Excel to prepare the data can be found [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/02_data_preparation/Data_Cleaning_Log.jpeg)
 
