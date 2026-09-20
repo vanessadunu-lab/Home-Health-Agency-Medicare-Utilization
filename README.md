@@ -12,11 +12,16 @@ The CMS Home Health Agency dataset is a flat, provider/geography-level dataset c
 
 <img width="1920" height="1080" alt="HHA_Data_Structure" src="https://github.com/user-attachments/assets/01e7c3c7-5835-4bee-83fa-2ab738bd456e" />
 
+
 * The data cleaning log to document checks completed in Excel to prepare the data can be found [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/02_data_preparation/Data_Cleaning_Log.jpeg)
 
 ## Executive Summary
+### Overview of Finding (3-4 sentence summary of main findings)
 
-### Overview of Finding (3-4 sentence summary of main findings) - include tableau dashboard pic and link
+<img width="2838" height="2398" alt="Home_health_medicare_utilization_dashboard" src="https://github.com/user-attachments/assets/6ac5a52b-c124-42ed-b1c3-0ed21079b766" />
+
+
+The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/HHA_17898150729830/Dashboard1)
 
 ## Insights Deep Dive ### telling the story of what happned (quanitfied value with a metric with visualizations)
 
@@ -26,4 +31,3 @@ The CMS Home Health Agency dataset is a flat, provider/geography-level dataset c
 
 
 Healthcare data analytics project analyzing Medicare home health utilization, episode activity, and payments across states and providers using SQL and Tableau.
-tableau dashboard: https://public.tableau.com/app/profile/vanessa.dunu/viz/HHA_17898150729830/Dashboard1 
