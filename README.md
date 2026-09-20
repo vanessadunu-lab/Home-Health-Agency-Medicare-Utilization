@@ -56,6 +56,11 @@ Below is the the overview from the Tableau dashboard which will be discussed fur
 
 <img width="2524" height="1468" alt="04_payment_per_beneficiary" src="https://github.com/user-attachments/assets/279d227a-a013-47e6-9ba5-a63c76e97905" />
 
-## Recommendations (bullet points of why does this matter. context and then bold recommendation part of sentence)
+## Recommendations: 
+
+Based on these insights, the following recommendations are provided below:
+
+* Higher utilization groups were discovered, including community late groupings and even more so on the high comorbidity level. Provider operations and care management teams could ** conduct targeted reviews of states and/or providers with higher episode activity within specific admission source, timing, and comorbidity groupings to better understand the factors contributing to differences in costs and utilization. **
+
 * 
 
