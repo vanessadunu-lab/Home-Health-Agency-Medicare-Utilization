@@ -1,7 +1,7 @@
 # HHA Medicare Utilization & Provider Analysis
 ## Background and Overview 
 The Office of Enterprise and Data Analytics (OEDA), at the Centers for Medicare & Medicaid Services, is the main data source for health programs. OEDA released Post-Acute Care and Hospice Provider
-Utilization and Payment Public Use Files (PAC PUF) reporting and summarizing trends on healthcare services provided by Home Health Agencies (HHAs).
+Utilization and Payment Public Use Files (PAC PUF) from 2014 to 2024 reporting and summarizing trends on healthcare services provided by Home Health Agencies (HHAs).
 
 CMS Office of Enterprise & Data Analytics releases data on types of population receiving care, services offered by providers, and beneficiary/provider/medicare costs. This project analyzes Medicare home health utilization and payment patterns across states and providers using CMS data. The analysis examines episode activity, beneficiary charges, standardized payments, and provider-level payment variation to identify patterns that may support Provider Operations and Care Management teams.
 
