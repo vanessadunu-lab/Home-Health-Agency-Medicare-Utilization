@@ -62,7 +62,7 @@ Below is the the overview from the Tableau dashboard which will be discussed fur
 
 Based on these insights, the following recommendations are provided below:
 
-* Higher utilization groups were discovered, including community late groupings with high comorbidity level having higher episode activity compared to low or no comorbidity. Provider operations and care management teams could conduct targeted **reviews of states and/or providers with higher episode activity within specific admission source, timing, and comorbidity groupings to better understand the factors contributing to differences in utilization.**
-
-* In the analysis, there were states that had higher or lower episodes per beneficiary 
+* **Conduct targeted reviews of higher-utilization groupings.** Higher episode activity was observed within community late groupings at higher comorbidity levels compared with lower or no comorbidity levels. Provider Operations and Care Management teams could conduct targeted reviews of states and/or providers with higher episode activity within specific admission source, timing, and comorbidity groupings to better understand the factors contributing to differences in utilization.
+  
+* **Further evaluate the relationship between episode activity and case-mix distribution.** The analysis identified variation in episodes per beneficiary across states. Further analysis could examine how the distribution of admission source, timing, and comorbidity groupings contributes to differences in overall episode activity and whether these patterns correspond with differences in payment across providers.
 
