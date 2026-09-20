@@ -3,7 +3,7 @@
 The Office of Enterprise and Data Analytics (OEDA), at the Centers for Medicare & Medicaid Services, is the main data source for health programs. OEDA released Post-Acute Care and Hospice Provider
 Utilization and Payment Public Use Files (PAC PUF) from 2014 to 2024 reporting and summarizing trends on healthcare services provided by Home Health Agencies (HHAs).
 
-CMS Office of Enterprise & Data Analytics releases data on types of population receiving care, services offered by providers, and beneficiary/provider/medicare costs. This project analyzes Medicare home health utilization and payment patterns across states and providers using CMS data. The analysis examines episode activity, beneficiary charges, standardized payments, and provider-level payment variation to identify patterns that may support Provider Operations and Care Management teams.
+CMS Office of Enterprise & Data Analytics releases data on types of population receiving care, services offered by providers, and beneficiary/provider/medicare costs. This project analyzes Medicare home health utilization and payment patterns across states and providers using CMS data from 2024. The analysis examines episode activity, beneficiary charges, standardized payments, and provider-level payment variation to identify patterns that may support Provider Operations and Care Management teams.
 
 * The python codes used to retrieve the data can be found [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/01_data_retrieval/home_health_data_retrieval.ipynb)
   
@@ -18,10 +18,13 @@ The CMS Home Health Agency dataset is a flat, provider/geography-level dataset c
 ## Executive Summary
 ### Overview of Finding (3-4 sentence summary of main findings)
 
+Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/HHA_17898150729830/Dashboard1)
+
+
 <img width="2838" height="2398" alt="Home_health_medicare_utilization_dashboard" src="https://github.com/user-attachments/assets/6ac5a52b-c124-42ed-b1c3-0ed21079b766" />
 
 
-The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/HHA_17898150729830/Dashboard1)
+
 
 ## Insights Deep Dive ### telling the story of what happned (quanitfied value with a metric with visualizations)
 
