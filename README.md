@@ -18,7 +18,7 @@ The CMS Home Health Agency dataset is a flat, provider/geography-level dataset c
 ## Executive Summary
 ### Overview of Findings
 
-This analysis examines Medicare home health utilization and payment patterns across states and providers, with a focus on admission source and timing, patient complexity, and episode activity.
+This analysis examines Medicare home health utilization and payment patterns across states and providers, with a focus on admission source and timing, patient complexity, and episode activity. The data revealed variations in episode activity, beneficiary charges, and payment across these factors, with recurring differences observed within the community late admission grouping and higher comorbidity levels. These patterns remained consistent at the state and provider levels, and the following section will provide a more detailed view of variation across the healthcare system. These findings can support Provider Operations and Care Management teams in identifying areas for further operational review.
 
 Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/HHA_17898150729830/Dashboard1)
 
