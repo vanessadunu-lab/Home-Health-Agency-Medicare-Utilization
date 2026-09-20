@@ -8,7 +8,7 @@ CMS Office of Enterprise & Data Analytics releases data on types of population r
 * The python codes used to retrieve the data can be found [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/01_data_retrieval/home_health_data_retrieval.ipynb)
   
 ## Data Structure Overview
-
+https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/02_data_preparation/HHA%20Data%20Structure.pdf
 
 * The data cleaning log to document checks completed in Excel to prepare the data can be found [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/02_data_preparation/Data_Cleaning_Log.jpeg)
 
