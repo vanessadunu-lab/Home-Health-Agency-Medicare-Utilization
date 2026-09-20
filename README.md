@@ -20,6 +20,8 @@ The CMS Home Health Agency dataset is a flat, provider/geography-level dataset c
 
 This analysis examines Medicare home health utilization and payment patterns across states and providers, with a focus on admission source and timing, patient complexity, and episode activity. The data revealed variations in episode activity, beneficiary charges, and payment across these factors, with recurring differences observed within the community late admission grouping and higher comorbidity levels. The following sections will examine whether patterns remained consistent at the state and provider levels, providing a more detailed view of variation across the healthcare system. These findings can support Provider Operations and Care Management teams in identifying areas for further operational review.
 
+The SQL queries conducted in PostgreSQL regarding various questions can be accessed [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/03_sql_analysis/home_health_analysis.sql)
+
 Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/HHA_17898150729830/Dashboard1)
 
 
@@ -62,5 +64,5 @@ Based on these insights, the following recommendations are provided below:
 
 * Higher utilization groups were discovered, including community late groupings with high comorbidity level having higher episode activity compared to low or no comorbidity. Provider operations and care management teams could conduct targeted **reviews of states and/or providers with higher episode activity within specific admission source, timing, and comorbidity groupings to better understand the factors contributing to differences in utilization.**
 
-* 
+* In the analysis, there were states that had higher or lower episodes per beneficiary 
 
