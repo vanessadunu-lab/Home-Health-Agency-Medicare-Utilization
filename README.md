@@ -67,3 +67,5 @@ Based on these insights, the following recommendations are provided below:
   
 * **Further evaluate the relationship between episode activity and case-mix distribution.** The analysis identified variation in episodes per beneficiary across states. Further analysis could examine how the distribution of admission source, timing, and comorbidity groupings contributes to differences in overall episode activity and whether these patterns correspond with differences in payment across providers.
 
+* **Evaluate service utilization within higher-episode groupings.** Further analysis could examine PT, OT, and SLP visit utilization within higher-episode groupings to identify which services are associated with greater episode activity and whether resource utilization varies across admission source, timing, and comorbidity levels.
+
