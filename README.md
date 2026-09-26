@@ -23,7 +23,7 @@ This analysis examines Medicare home health utilization and payment patterns acr
 
 The SQL queries conducted in PostgreSQL regarding various questions can be accessed [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/03_sql_analysis/home_health_analysis.sql)
 
-Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/HHA_17898150729830/Dashboard1)
+Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/HHA_17898150729830/Dashboard1?publish=yes)
 
 
 <img width="2838" height="2398" alt="Home_health_medicare_utilization_dashboard" src="https://github.com/user-attachments/assets/6ac5a52b-c124-42ed-b1c3-0ed21079b766" />
