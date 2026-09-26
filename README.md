@@ -26,7 +26,7 @@ The SQL queries conducted in PostgreSQL regarding various questions can be acces
 Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/HHA_17898150729830/Dashboard1?publish=yes)
 
 
-<img width="2838" height="2398" alt="Home_health_medicare_utilization_dashboard" src="https://github.com/user-attachments/assets/6ac5a52b-c124-42ed-b1c3-0ed21079b766" />
+<img width="1898" height="1598" alt="HHA_Medicare_Utilization_Dashboard" src="https://github.com/user-attachments/assets/b0fd3b64-ad05-4923-b945-d1be435af2f5" />
 
 
 ### Overall Pattern:
