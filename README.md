@@ -35,7 +35,7 @@ Below is the the overview from the Tableau dashboard which will be discussed fur
   
 * Average charge per beneficiary was highest among the community late grouping, followed by the institutional early grouping. These differences highlight variation in charges across admission source, timing, and comorbidity groupings.
 
-<img width="1834" height="590" alt="01_charge_per_beneficiary" src="https://github.com/user-attachments/assets/8b2b697f-31d1-427c-a95e-f808a598598a" />
+<img width="2262" height="528" alt="01_avg_charge_per_beneficiary" src="https://github.com/user-attachments/assets/069864af-450b-4ee1-9b72-4272e5acbf20" />
 
 ### Utilization:
 
