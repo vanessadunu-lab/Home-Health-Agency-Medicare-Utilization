@@ -38,10 +38,10 @@ Average 30-day periods per reported beneficiary showed a different pattern from 
 
 <img width="1776" height="1070" alt="image" src="https://github.com/user-attachments/assets/ff67d9ac-1fbf-42f4-b9e1-e608864ad649" />
 
-Calculation Note: 
+**Calculation Note:**
 Percentage change was calculated by comparing the average 30-day periods per reported beneficiary in the high-comorbidity category with the no-comorbidity category within each admission source and timing grouping.
 
-Limitation: 
+**Limitation:**
 The measure represents reported 30-day periods relative to reported beneficiary counts within the selected state and case-mix groupings. Beneficiary counts may not represent unique individuals across all groupings, so the results should be interpreted as descriptive utilization measures rather than a direct measure of individual-level service use.
 
 ---
@@ -53,10 +53,10 @@ Within the Community Late grouping, reported standardized payment per beneficiar
 
 <img width="2142" height="1458" alt="image" src="https://github.com/user-attachments/assets/7b713d9a-fa48-46ad-96f2-970256626833" />
 
-Calculation note:
+**Calculation note:**
 For each comorbidity category within Community Late, the reported standardized payment averages for the selected higher- and lower-payment states were compared. The dollar difference was calculated by subtracting the lower-state average from the higher-state average. The percentage difference was calculated by dividing that dollar difference by the lower-state average and multiplying by 100.
 
-Limitation:
+**Limitation:**
 The comparison uses unweighted averages of reported provider-level standardized payment averages, with equal weighting across the three states in each group. These are not pooled beneficiary-weighted averages. The state groups were initially selected using state-level standardized payment averages, so this follow-up comparison is descriptive and does not independently validate the original state ranking. Differences do not establish that geography or case mix alone caused the observed payment variation.
 
 Some Institutional Early and Institutional Late categories do not have all six states represented. Therefore, those categories should not be included in a direct three-state-versus-three-state percentage comparison without addressing the missing states.
