@@ -39,9 +39,11 @@ Average 30-day periods per reported beneficiary showed a different pattern from 
 <img width="1776" height="1070" alt="image" src="https://github.com/user-attachments/assets/ff67d9ac-1fbf-42f4-b9e1-e608864ad649" />
 
 **Calculation Note:**
+
 Percentage change was calculated by comparing the average 30-day periods per reported beneficiary in the high-comorbidity category with the no-comorbidity category within each admission source and timing grouping.
 
 **Limitation:**
+
 The measure represents reported 30-day periods relative to reported beneficiary counts within the selected state and case-mix groupings. Beneficiary counts may not represent unique individuals across all groupings, so the results should be interpreted as descriptive utilization measures rather than a direct measure of individual-level service use.
 
 ---
@@ -54,9 +56,11 @@ Within the Community Late grouping, reported standardized payment per beneficiar
 <img width="2142" height="1458" alt="image" src="https://github.com/user-attachments/assets/7b713d9a-fa48-46ad-96f2-970256626833" />
 
 **Calculation note:**
+
 For each comorbidity category within Community Late, the reported standardized payment averages for the selected higher- and lower-payment states were compared. The dollar difference was calculated by subtracting the lower-state average from the higher-state average. The percentage difference was calculated by dividing that dollar difference by the lower-state average and multiplying by 100.
 
 **Limitation:**
+
 The comparison uses unweighted averages of reported provider-level standardized payment averages, with equal weighting across the three states in each group. These are not pooled beneficiary-weighted averages. The state groups were initially selected using state-level standardized payment averages, so this follow-up comparison is descriptive and does not independently validate the original state ranking. Differences do not establish that geography or case mix alone caused the observed payment variation.
 
 Some Institutional Early and Institutional Late categories do not have all six states represented. Therefore, those categories should not be included in a direct three-state-versus-three-state percentage comparison without addressing the missing states.
@@ -65,11 +69,12 @@ Some Institutional Early and Institutional Late categories do not have all six s
 
 Based on these insights, the following recommendations are provided below:
 
-* **Conduct targeted reviews of higher-utilization groupings.** Higher episode activity was observed within community late groupings at higher comorbidity levels compared with lower or no comorbidity levels. Provider Operations and Care Management teams could conduct targeted reviews of states and/or providers with higher episode activity within specific admission source, timing, and comorbidity groupings to better understand the factors contributing to differences in utilization.
-  
-* **Further evaluate the relationship between episode activity and case-mix distribution.** The analysis identified variation in episodes per beneficiary across states. Further analysis could examine how the distribution of admission source, timing, and comorbidity groupings contributes to differences in overall episode activity and whether these patterns correspond with differences in payment across providers.
+* **Conduct targeted reviews of higher-utilization admission groupings.** Community Late showed the largest increase in average 30-day periods per reported beneficiary between no and high comorbidity (12.9%). Provider Operations and Care Management teams could review selected states and providers within this grouping to better understand factors associated with higher reported utilization, including patient complexity, admission patterns, and service needs.
 
-* **Evaluate service utilization within higher-episode groupings.** Further analysis could examine PT, OT, and SLP visit utilization within higher-episode groupings to identify which services are associated with greater episode activity and whether resource utilization varies across admission source, timing, and comorbidity levels.
+* **Investigate variation in reported beneficiary charges.** National average charges per beneficiary increased from no to high comorbidity across all four admission source and timing categories, with Community Late showing the largest increase ($984.42, or 28.8%). Further review could examine whether differences in service needs, admission patterns, or other characteristics contribute to variation in reported charges.
+
+* **Review standardized payment variation across selected states.** The comparison identified differences in reported standardized payment per beneficiary between selected higher- and lower-payment states within matched case-mix and comorbidity categories. Provider Operations and reimbursement teams could examine the underlying payment patterns and state-level characteristics to better understand the sources of variation. These differences should not be interpreted as evidence of provider efficiency or quality without additional analysis.
+
 
 ## Data Structure Overview
 The CMS Home Health Agency dataset is a flat, provider/geography-level dataset containing 33 variables spanning provider characteristics, admission characteristics, patient complexity, utilization, payment, and service measures.
