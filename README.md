@@ -16,10 +16,11 @@ This project examines Medicare home health utilization and payment patterns acro
 
 The Tableau dashboard provides an overview of the analysis, allowing readers to explore differences across these categories and compare reported measures at the national, state, and provider levels. The detailed findings below explain the patterns identified in the analysis and the calculations used to evaluate them.
 
-Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.]([https://public.tableau.com/app/profile/vanessa.dunu/viz/HHA_17898150729830/Dashboard1?publish=yes](https://public.tableau.com/app/profile/vanessa.dunu/viz/MedicareHomeHealthUtilizationAnalysis/Dashboard1?publish=yes))
+Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/MedicareHomeHealthUtilizationAnalysis/Dashboard1?publish=yes)
 
 
-<img width="1898" height="1598" alt="HHA_Medicare_Utilization_Dashboard" src="https://github.com/user-attachments/assets/b0fd3b64-ad05-4923-b945-d1be435af2f5" />
+<img width="1892" height="1599" alt="image" src="https://github.com/user-attachments/assets/aa2851cc-e3bc-4eee-8075-72c663bcb4c8" />
+
 
 
 ### Overall Pattern:
