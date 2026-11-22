@@ -16,43 +16,50 @@ This project examines Medicare home health utilization and payment patterns acro
 
 The Tableau dashboard provides an overview of the analysis, allowing readers to explore differences across these categories and compare reported measures at the national, state, and provider levels. The detailed findings below explain the patterns identified in the analysis and the calculations used to evaluate them.
 
-Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/MedicareHomeHealthUtilizationAnalysis/Dashboard1?publish=yes)
+* Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/MedicareHomeHealthUtilizationAnalysis/Dashboard1?publish=yes)
 
 
 <img width="1892" height="1599" alt="image" src="https://github.com/user-attachments/assets/aa2851cc-e3bc-4eee-8075-72c663bcb4c8" />
 
 
+## Detailed Findings
 
-### Overall Pattern:
+### Finding 1: Beneficiary Charges by Admission Group and Comorbidity
 
-* At the national level, average charge per beneficiary generally increased across higher comorbidity levels. A similar pattern was observed in episode activity, with episodes per beneficiary also increasing across higher comorbidity levels.
-  
-* Average charge per beneficiary was highest among the community late grouping, followed by the institutional early grouping. These differences highlight variation in charges across admission source, timing, and comorbidity groupings.
+At the national level, average charges per beneficiary increased from no to high comorbidity across all four admission source and timing categories. Community Late showed the largest increase, rising by $984.42 (28.8%), and had the highest average charge in the high-comorbidity category at $4,399.31. Institutional Early had the second-highest average charge in the high-comorbidity category, reaching $3,917. These results highlight variation in reported charges across admission source, timing, and comorbidity groupings.
 
-<img width="1572" height="528" alt="image" src="https://github.com/user-attachments/assets/70da0283-3a73-4389-9c9d-5ac1b918ad18" />
+<img width="1572" height="528" alt="image" src="https://github.com/user-attachments/assets/3abe3e98-f3fe-465f-9c3e-6baa9a03e291" />
 
+---
 
-### Utilization:
+### Finding 2: 30 Day Periods Per Reported Beneficiary
 
-* Similar to average charge per beneficiary, episode activity was highest in the community late grouping among the six states analyzed, including the three states with the highest and lowest episode activity. This indicates a consistent pattern of higher episode activity within the community late grouping across the selected states. 
+Average 30-day periods per reported beneficiary showed a different pattern from charges across admission source and timing categories. When no and high comorbidity were compared within the same case-mix category, the average increased by 12.9% in Community Late and 4.6% in Institutional Late, decreased by 1.6% in Community Early, and remained nearly unchanged in Institutional Early (-0.1%). While average charges increased across all four categories, episode activity did not show a consistent increase with higher comorbidity.
 
-* Within each selected state, episode activity generally increased from no comorbidity to high comorbidity. This pattern suggests that episode activity varies alongside patient complexity and may warrant further examination of utilization patterns across different patient complexity levels. 
+<img width="1776" height="1070" alt="image" src="https://github.com/user-attachments/assets/ff67d9ac-1fbf-42f4-b9e1-e608864ad649" />
 
-<img width="1778" height="1306" alt="02_episodes_per_beneficiary" src="https://github.com/user-attachments/assets/2443bcf8-ed78-4ee7-ab6e-09d3f4b4b647" />
+Calculation Note: 
+Percentage change was calculated by comparing the average 30-day periods per reported beneficiary in the high-comorbidity category with the no-comorbidity category within each admission source and timing grouping.
 
-### Payment:
+Limitation: 
+The measure represents reported 30-day periods relative to reported beneficiary counts within the selected state and case-mix groupings. Beneficiary counts may not represent unique individuals across all groupings, so the results should be interpreted as descriptive utilization measures rather than a direct measure of individual-level service use.
 
-* Among the six states with the highest and lowest average standardized payment, the most notable increase occurred within the three highest-payment states in the community late grouping at the high comorbidity level. This pattern indicates variation in standardized payment across admission source, timing, comorbidity, and state.
+---
 
+### Finding 3: Standardized Payment Variation Across Selected States
 
-<img width="2522" height="1476" alt="03_standardized_payment" src="https://github.com/user-attachments/assets/23d27150-aa68-4370-b818-864e0b2fa2c4" />
-
-### Provider Variation: 
-
-* Among the selected providers in PR, OK, and UT, average payment per beneficiary was highest in the community late grouping across all comorbidity levels compared with the other admission source and timing groupings. This provider-level pattern is consistent with the higher community late payment patterns observed in the national and state-level analyses.
+Within the Community Late grouping, reported standardized payment per beneficiary varied between the selected higher- and lower-payment states across comorbidity categories. The dollar difference ranged from $1,125 to $1,974 per beneficiary. The largest dollar gap occurred in the high-comorbidity category, while the largest percentage difference occurred in the low-comorbidity category (79.5%).
 
 
-<img width="2524" height="1468" alt="04_payment_per_beneficiary" src="https://github.com/user-attachments/assets/279d227a-a013-47e6-9ba5-a63c76e97905" />
+<img width="2142" height="1458" alt="image" src="https://github.com/user-attachments/assets/7b713d9a-fa48-46ad-96f2-970256626833" />
+
+Calculation note:
+For each comorbidity category within Community Late, the reported standardized payment averages for the selected higher- and lower-payment states were compared. The dollar difference was calculated by subtracting the lower-state average from the higher-state average. The percentage difference was calculated by dividing that dollar difference by the lower-state average and multiplying by 100.
+
+Limitation:
+The comparison uses unweighted averages of reported provider-level standardized payment averages, with equal weighting across the three states in each group. These are not pooled beneficiary-weighted averages. The state groups were initially selected using state-level standardized payment averages, so this follow-up comparison is descriptive and does not independently validate the original state ranking. Differences do not establish that geography or case mix alone caused the observed payment variation.
+
+Some Institutional Early and Institutional Late categories do not have all six states represented. Therefore, those categories should not be included in a direct three-state-versus-three-state percentage comparison without addressing the missing states.
 
 ## Recommendations: 
 
@@ -70,6 +77,9 @@ The CMS Home Health Agency dataset is a flat, provider/geography-level dataset c
 <img width="1920" height="1080" alt="HHA_Data_Structure" src="https://github.com/user-attachments/assets/01e7c3c7-5835-4bee-83fa-2ab738bd456e" />
 
 
+* Limitations:
+
+  
 * The Python notebook documenting the dataset retrieval process through the CMS Open Data API is available [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/01_data_retrieval/home_health_data_retrieval.ipynb)
 * The data cleaning log to document checks completed in Excel to prepare the data can be found [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/02_data_preparation/Data_Cleaning_Log.jpeg)
 * The SQL queries conducted in PostgreSQL regarding various questions can be accessed [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/03_sql_analysis/home_health_analysis.sql)
