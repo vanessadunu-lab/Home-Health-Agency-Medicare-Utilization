@@ -21,6 +21,15 @@ The Tableau dashboard provides an overview of the analysis, allowing readers to 
 
 <img width="1892" height="1599" alt="image" src="https://github.com/user-attachments/assets/aa2851cc-e3bc-4eee-8075-72c663bcb4c8" />
 
+## Recommendations: 
+
+Based on these insights, the following recommendations are provided below:
+
+* **Conduct targeted reviews of higher-utilization admission groupings.** Community Late showed the largest increase in average 30-day periods per reported beneficiary between no and high comorbidity (12.9%). Provider Operations and Care Management teams could review selected states and providers within this grouping to better understand factors associated with higher reported utilization, including patient complexity, admission patterns, and service needs.
+
+* **Investigate variation in reported beneficiary charges.** National average charges per beneficiary increased from no to high comorbidity across all four admission source and timing categories, with Community Late showing the largest increase ($984.42, or 28.8%). Further review could examine whether differences in service needs, admission patterns, or other characteristics contribute to variation in reported charges.
+
+* **Review standardized payment variation across selected states.** The comparison identified differences in reported standardized payment per beneficiary between selected higher- and lower-payment states within matched case-mix and comorbidity categories. Provider Operations and reimbursement teams could examine the underlying payment patterns and state-level characteristics to better understand the sources of variation. These differences should not be interpreted as evidence of provider efficiency or quality without additional analysis.
 
 ## Detailed Findings
 
@@ -64,16 +73,6 @@ For each comorbidity category within Community Late, the reported standardized p
 The comparison uses unweighted averages of reported provider-level standardized payment averages, with equal weighting across the three states in each group. These are not pooled beneficiary-weighted averages. The state groups were initially selected using state-level standardized payment averages, so this follow-up comparison is descriptive and does not independently validate the original state ranking. Differences do not establish that geography or case mix alone caused the observed payment variation.
 
 Some Institutional Early and Institutional Late categories do not have all six states represented. Therefore, those categories should not be included in a direct three-state-versus-three-state percentage comparison without addressing the missing states.
-
-## Recommendations: 
-
-Based on these insights, the following recommendations are provided below:
-
-* **Conduct targeted reviews of higher-utilization admission groupings.** Community Late showed the largest increase in average 30-day periods per reported beneficiary between no and high comorbidity (12.9%). Provider Operations and Care Management teams could review selected states and providers within this grouping to better understand factors associated with higher reported utilization, including patient complexity, admission patterns, and service needs.
-
-* **Investigate variation in reported beneficiary charges.** National average charges per beneficiary increased from no to high comorbidity across all four admission source and timing categories, with Community Late showing the largest increase ($984.42, or 28.8%). Further review could examine whether differences in service needs, admission patterns, or other characteristics contribute to variation in reported charges.
-
-* **Review standardized payment variation across selected states.** The comparison identified differences in reported standardized payment per beneficiary between selected higher- and lower-payment states within matched case-mix and comorbidity categories. Provider Operations and reimbursement teams could examine the underlying payment patterns and state-level characteristics to better understand the sources of variation. These differences should not be interpreted as evidence of provider efficiency or quality without additional analysis.
 
 
 ## Data Structure Overview
