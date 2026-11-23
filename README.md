@@ -84,5 +84,5 @@ The CMS Home Health Agency dataset is a flat, provider/geography-level dataset c
 
 * The Python notebook documenting the dataset retrieval process through the CMS Open Data API is available [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/01_data_retrieval/home_health_data_retrieval.ipynb)
 * The data cleaning log to document checks completed in Excel to prepare the data can be found [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/02_data_preparation/Data_Cleaning_Log.jpeg)
-* The SQL queries conducted in PostgreSQL regarding various questions can be accessed [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/03_sql_analysis/home_health_analysis.sql)
+* The SQL queries conducted in PostgreSQL regarding various questions can be accessed [here.](https://github.com/vanessadunu-lab/Home-Health-Agency-Medicare-Utilization/blob/main/03_sql_analysis/Updated_HHA_Analysis.sql)
 
