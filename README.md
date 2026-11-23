@@ -10,17 +10,6 @@ CMS Office of Enterprise & Data Analytics releases data on types of population r
 * Charges: Nationally, average charges per beneficiary increased from no to high comorbidity across all four admission source/timing categories. Community Late showed the largest increase, $984.42 (28.8%), and the highest average charge in the high-comorbidity category, at $4,399.31.
 * Episode Activity: Average 30-day periods per reported beneficiary varied by admission source and timing. Comparing no and high comorbidity within the same case-mix category, the average increased by 12.9% in Community Late and 4.6% in Institutional Late, decreased by 1.6% in Community Early, and remained nearly unchanged in Institutional Early (-0.1%).
 * Standardized Payments: Within the Community Late grouping, reported standardized payment per beneficiary varied between the selected higher- and lower-payment states across comorbidity categories. The dollar difference ranged from $1,125 to $1,974 per beneficiary, with the largest dollar gap occurring in the high-comorbidity category. The largest percentage difference was observed in the low-comorbidity category (79.5%).
-  
-## Executive Summary
-This project examines Medicare home health utilization and payment patterns across states and providers, focusing on admission source and timing, comorbidity, episode activity, and reported payment variation.
-
-The Tableau dashboard provides an overview of the analysis, allowing readers to explore differences across these categories and compare reported measures at the national, state, and provider levels. The detailed findings below explain the patterns identified in the analysis and the calculations used to evaluate them.
-
-* Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/MedicareHomeHealthUtilizationAnalysis/Dashboard1?publish=yes)
-
-
-<img width="1892" height="1599" alt="image" src="https://github.com/user-attachments/assets/aa2851cc-e3bc-4eee-8075-72c663bcb4c8" />
-
 
 
 ## Recommendations: 
@@ -32,6 +21,18 @@ Based on these insights, the following recommendations are provided below:
 * **Investigate variation in reported beneficiary charges.** National average charges per beneficiary increased from no to high comorbidity across all four admission source and timing categories, with Community Late showing the largest increase ($984.42, or 28.8%). Further review could examine whether differences in service needs, admission patterns, or other characteristics contribute to variation in reported charges.
 
 * **Review standardized payment variation across selected states.** The comparison identified differences in reported standardized payment per beneficiary between selected higher- and lower-payment states within matched case-mix and comorbidity categories. Provider Operations and reimbursement teams could examine the underlying payment patterns and state-level characteristics to better understand the sources of variation. These differences should not be interpreted as evidence of provider efficiency or quality without additional analysis.
+  
+  
+## Executive Summary
+This project examines Medicare home health utilization and payment patterns across states and providers, focusing on admission source and timing, comorbidity, episode activity, and reported payment variation.
+
+The Tableau dashboard provides an overview of the analysis, allowing readers to explore differences across these categories and compare reported measures at the national, state, and provider levels. The detailed findings below explain the patterns identified in the analysis and the calculations used to evaluate them.
+
+* Below is the the overview from the Tableau dashboard which will be discussed further in the report. The interactive tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/vanessa.dunu/viz/MedicareHomeHealthUtilizationAnalysis/Dashboard1?publish=yes)
+
+
+<img width="1892" height="1599" alt="image" src="https://github.com/user-attachments/assets/aa2851cc-e3bc-4eee-8075-72c663bcb4c8" />
+
 
 ## Detailed Findings
 
