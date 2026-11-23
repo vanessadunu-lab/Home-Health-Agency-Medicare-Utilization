@@ -21,6 +21,8 @@ The Tableau dashboard provides an overview of the analysis, allowing readers to 
 
 <img width="1892" height="1599" alt="image" src="https://github.com/user-attachments/assets/aa2851cc-e3bc-4eee-8075-72c663bcb4c8" />
 
+
+
 ## Recommendations: 
 
 Based on these insights, the following recommendations are provided below:
